@@ -27,8 +27,8 @@ header {
 }
 
 header .logo {
-    color:var(--primary);
-    font-weight: bold ;
+    color: var(--primary);
+    font-weight: bold;
     letter-spacing: 2px;
 }
 
@@ -53,32 +53,32 @@ header ul li a:hover {
 
 
 /* section -hero homepage */
-section.hero-section{
+section.hero-section {
     background-color: var(--dark-primary);
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 0 250px ;
+    padding: 0 250px;
 }
 
-.hero-section__title{
+.hero-section__title {
     font-size: 34px;
     font-weight: 900;
 }
 
-.hero-section__title span{
+.hero-section__title span {
     color: var(--primary);
 }
 
-.hero-section__desc{
+.hero-section__desc {
     color: rgba(205, 221, 221, 0.685);
 }
 
-.social-icons{
+.social-icons {
     margin: 20px 0;
 }
 
-.social-icons li{
+.social-icons li {
     margin-right: 15px;
 }
 
@@ -87,53 +87,53 @@ ul.social-icons {
     display: flex;
 }
 
-.social-icons li > a{
+.social-icons li>a {
     text-decoration: none;
     color: #fff;
 }
 
-.social-icons li  a > i.fa-facebook:hover{
+.social-icons li a>i.fa-facebook:hover {
     color: #1877f2;
 }
 
-.social-icons li  a > i.fa-linkedin:hover{
+.social-icons li a>i.fa-linkedin:hover {
     color: #0e76a8;
 }
 
-.social-icons li a > i.fa-instagram:hover{
-    color: #F56040 ;
+.social-icons li a>i.fa-instagram:hover {
+    color: #F56040;
 }
 
-.social-icons li a > i.fa-github:hover{
-    color: #f4cbb2 ;
+.social-icons li a>i.fa-github:hover {
+    color: #f4cbb2;
 }
 
-.hero-buttons button{
+.hero-buttons button {
     margin-right: 10px;
 }
 
 
 /* buttons */
-.btn{
+.btn {
     padding: 10px 20px;
     border-radius: 3px;
     border: none;
     cursor: pointer;
 }
 
-.btn.btn-primary{
-    background:var(--primary);
+.btn.btn-primary {
+    background: var(--primary);
     font-weight: 600;
     color: var(--dark-primary);
     border-radius: 10px;
 }
 
-.btn.btn-primary:hover{
-    background-color:var(--primary-hover);
+.btn.btn-primary:hover {
+    background-color: var(--primary-hover);
 }
 
 
-.btn-dark-outlined{
+.btn-dark-outlined {
     background-color: var(--dark-primary);
     border: 1px solid var(--primary);
     color: var(--primary);
@@ -149,7 +149,7 @@ ul.social-icons {
 
 /* about me section */
 
-.about-section{
+.about-section {
     background-color: #22282f;
     color: #fff;
     padding: 30px 40px;
@@ -159,45 +159,112 @@ ul.social-icons {
 }
 
 
-.about-section img{
+.about-section img {
     width: 150px;
-    border-radius:20px ;
+    border-radius: 20px;
     border: 3px solid var(--primary);
     box-shadow: 3px 5px 15px #03506e;
 }
 
-.about-section--desc{
-    margin-left:100px ;
+.about-section--desc {
+    margin-left: 100px;
     max-width: 350px;
 }
 
-.about-section--desc h4{
+.about-section--desc h4 {
     font-size: 30px;
     font-weight: 900;
 }
 
-.about-section--desc h4 > span{
+.about-section--desc h4>span {
     color: var(--primary);
 }
-.about-section--desc ul{
+
+.about-section--desc ul {
     list-style: none;
     margin: 10px 0;
 }
 
-.about-section--desc li{
+.about-section--desc li {
     padding-bottom: 5px;
     color: gray;
 }
 
-.about-section--desc li > a{
+.about-section--desc li>a {
     color: gray;
     text-decoration: none;
 }
 
-.about-section--desc li > a:hover{
+.about-section--desc li>a:hover {
     color: var(--primary-hover);
 }
 
-.about-section--desc li > strong{
+.about-section--desc li>strong {
     color: #fff;
 }
+
+
+/* work section */
+.work-section {
+    background-color: var(--dark-primary);
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+.work-section-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.work-section-title span{
+    color: var(--primary);
+}
+
+.work-section-items{
+    display: flex;
+    justify-content: center;
+}
+
+.work-section-box {
+    background-color: #22282f;
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.work-section-box:hover{
+    background-color: #161a1fee;
+}
+
+.work-section-box__desc p {
+    color: gray;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.work-section-box a {
+    text-decoration: none;
+    color: #e711faea;
+}
+
+.work-section-box__desc {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.work-section-box__icon{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.work-section-box__icon:hover{
+    background-color: var(--primary-hover);
+}
+
