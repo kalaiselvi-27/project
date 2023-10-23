@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--nunito);
 }
@@ -157,11 +161,13 @@ ul.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 
 .about-section img {
-    width: 150px;
+    width: 180px;
+    height: 300px;
     border-radius: 20px;
     border: 3px solid var(--primary);
     box-shadow: 3px 5px 15px #03506e;
