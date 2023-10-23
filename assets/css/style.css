@@ -4,6 +4,7 @@
     --primary: #12bdff;
     --primary-hover: #069bd6;
     --dark-primary: #1b1f24;
+    --nunito:'Nunito Sans',sans-serif
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: var(--nunito);
 }
 
 /* header */
@@ -268,3 +269,45 @@ ul.social-icons {
     background-color: var(--primary-hover);
 }
 
+/* contact css*/
+
+.contact-section{
+    background-color: #14171c;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h4{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 900;
+}
+
+.contact-section h4 span{
+    color: var(--primary);
+}
+.contact-section form div > input , textarea{
+    padding: 5px 10px;
+    outline:none;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: var(--nunito);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--dark-primary);
+    color: gray;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--primary);
+}
